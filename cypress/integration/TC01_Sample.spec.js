@@ -1,4 +1,4 @@
-import login from './pageObjects/loginPage'
+import login from '../pageObjects/loginPage'
 
 describe('Understanding get command', () => {
 
