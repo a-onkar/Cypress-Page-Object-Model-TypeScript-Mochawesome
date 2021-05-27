@@ -1,4 +1,4 @@
-<h1 align="center">Welcome to Cypress Page Object Model + Mochawesome Reporter + JavaScript 👋</h1>
+<h1 align="center">Cypress Page Object Model + Mochawesome Reporter + JavaScript 👋</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version- v0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/a-onkar/Cypress-Page-Object-Model#readme" target="_blank">
@@ -56,7 +56,7 @@ Give a ⭐️ if this project helped you!
 ## 📝 License
 
 Copyright © 2021 [Anandteerth Onkar](https://github.com/a-onkar).<br />
-This project is [ISC](https://github.com/a-onkar/Cypress-Page-Object-Model/blob/master/LICENSE) licensed.
+This project is [MIT](https://github.com/a-onkar/Cypress-Page-Object-Model/blob/master/LICENSE) licensed.
 
 ***
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
