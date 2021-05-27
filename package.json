@@ -4,19 +4,21 @@
   "description": "",
   "main": "index.js",
   "scripts": {
-    "test": "echo \"Error: no test specified\" && exit 1"
+    "cy:run-chrome": "cypress run --headless -b chrome",
+    "cy:run-firefox": "cypress run --headless -b firefox",
+    "cy:open": "cypress open"
   },
   "repository": {
     "type": "git",
     "url": "git+https://github.com/a-onkar/Cypress-Page-Object-Model.git"
   },
   "author": "",
-  "license": "ISC",
+  "license": "MIT",
   "bugs": {
     "url": "https://github.com/a-onkar/Cypress-Page-Object-Model/issues"
   },
   "homepage": "https://github.com/a-onkar/Cypress-Page-Object-Model#readme",
   "devDependencies": {
-    "cypress": "^4.7.0"
+    "cypress": "^6.9.0"
   }
 }

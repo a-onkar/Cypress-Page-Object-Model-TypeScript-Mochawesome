@@ -1,4 +1,4 @@
-<h1 align="center">Cypress Page Object Model + Mochawesome Reporter + JavaScript 👋</h1>
+<h1 align="center">Cypress Page Object Model + Mochawesome Reporter + JavaScript</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version- v0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/a-onkar/Cypress-Page-Object-Model#readme" target="_blank">
@@ -15,35 +15,44 @@
   </a>
 </p>
 
-> In this project Cypress Project, a simple page object model is developed using JavaScript. Mochawesome reporter tool has been configured for reporting purpose. 
+In this project Cypress Project, a simple page object model is developed using JavaScript. Mochawesome reporter tool has been configured for reporting purpose.
 
-### 🏠 [Homepage](https://github.com/a-onkar/Cypress-Page-Object-Model#readme)
 
 ## Install
+
+Clone the repo
+cd Cypress-Page-Object-Model
 
 ```sh
 npm install
 ```
 
-## Usage
+## Open Cypress Test Runner
+
+```sh
+npm run cy:open
+```
+
+or
 
 ```sh
 npx cypress open
 ```
 
-## Run tests
+## Run Cypress Tests in Headless Mode
 
 ```sh
-npm cypress run
+"cy:run-chrome": "cypress run --headless -b chrome",
+"cy:run-firefox": "cypress run --headless -b firefox",
 ```
 
 ## Author
 
 👤 **Anandteerth Onkar**
 
-* Twitter: [@CypressTester](https://twitter.com/CypressTester)
-* Github: [@a-onkar](https://github.com/a-onkar)
-* LinkedIn: [@aonkar](https://linkedin.com/in/aonkar)
+- Twitter: [@CypressTester](https://twitter.com/CypressTester)
+- Github: [@a-onkar](https://github.com/a-onkar)
+- LinkedIn: [@aonkar](https://linkedin.com/in/aonkar)
 
 ## 🤝 Contributing
 
@@ -58,5 +67,6 @@ Give a ⭐️ if this project helped you!
 Copyright © 2021 [Anandteerth Onkar](https://github.com/a-onkar).<br />
 This project is [MIT](https://github.com/a-onkar/Cypress-Page-Object-Model/blob/master/LICENSE) licensed.
 
-***
+---
+
 _This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_

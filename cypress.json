@@ -1,13 +1,5 @@
 {
-    "$schema": "https://on.cypress.io/cypress.schema.json",
-    "watchForFileChanges": false,
-    "video": false,
-    "reporter": "mochawesome",
-    "reporterOptions": {
-        "reportDir": "cypress/report/mochawesome-report",
-        "overwrite": true,
-        "html": true,
-        "json": false,
-        "timestamp": "mmddyyyy_HHMMss"
-    }
+  "$schema": "https://on.cypress.io/cypress.schema.json",
+  "baseUrl": "ToBeDecided",
+  "defaultCommandTimeout": 6000
 }
