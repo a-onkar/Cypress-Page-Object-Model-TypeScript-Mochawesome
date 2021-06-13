@@ -18,7 +18,11 @@
     "url": "https://github.com/a-onkar/Cypress-Page-Object-Model/issues"
   },
   "homepage": "https://github.com/a-onkar/Cypress-Page-Object-Model#readme",
-  "devDependencies": {
-    "cypress": "^6.9.0"
+  "dependencies": {
+    "cypress": "^7.5.0",
+    "cypress-iframe": "^1.0.1",
+    "cypress-plugin-tab": "^1.0.5",
+    "cypress-xpath": "^1.6.2",
+    "typescript": "^4.3.2"
   }
 }

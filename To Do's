@@ -1,7 +1,7 @@
+Update Project Name or Create New Project with name matching the goal of this project. Use the content of this project
 
 Choose the application under test
 Create min 5 test cases
 Create Custom Command
 Cofigure Cypress.json
-Add mochawesome reporter to project
-Add plugins (xpath, tab, reporter, iFrame etc.)
+Add mochawesome reporter

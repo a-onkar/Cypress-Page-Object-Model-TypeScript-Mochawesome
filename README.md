@@ -20,8 +20,8 @@ In this project Cypress Project, a simple page object model is developed using J
 
 ## Install
 
-Clone the repo
-cd Cypress-Page-Object-Model
+* Clone the repo
+* cd project_folder
 
 ```sh
 npm install
@@ -66,7 +66,3 @@ Give a ⭐️ if this project helped you!
 
 Copyright © 2021 [Anandteerth Onkar](https://github.com/a-onkar).<br />
 This project is [MIT](https://github.com/a-onkar/Cypress-Page-Object-Model/blob/master/LICENSE) licensed.
-
----
-
-_This README was generated with ❤️ by [readme-md-generator](https://github.com/kefranabg/readme-md-generator)_
