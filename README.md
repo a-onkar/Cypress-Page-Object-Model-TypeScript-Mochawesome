@@ -1,4 +1,4 @@
-<h1 align="center">Cypress Page Object Model + Mochawesome Reporter + JavaScript</h1>
+<h1 align="center">Cypress Page Object Model + Mochawesome Reporter + TypeScript</h1>
 <p>
   <img alt="Version" src="https://img.shields.io/badge/version- v0.1-blue.svg?cacheSeconds=2592000" />
   <a href="https://github.com/a-onkar/Cypress-Page-Object-Model#readme" target="_blank">
@@ -15,7 +15,11 @@
   </a>
 </p>
 
-In this project Cypress Project, a simple page object model is developed using JavaScript. Mochawesome reporter tool has been configured for reporting purpose.
+Cypress Project Details:
+TypeScript.
+Page object model. 
+Mochawesome reporter.
+Different ways of declaring Custom Commands.
 
 
 ## Install

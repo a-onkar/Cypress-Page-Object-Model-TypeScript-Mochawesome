@@ -1,6 +1,6 @@
 export {};
 
-// Different ways to declare & define custom commands
+// Different ways to Declare & Define custom commands
 
 declare global {
   namespace Cypress {
