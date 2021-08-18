@@ -16,10 +16,12 @@ describe("Regression Suite", () => {
     cy.fixture("test-data").then((data) => (testdata = data));
   });
 
-  it("Login", () => {
+  it("Login > Logout", () => {
     cy.visit(booksObj.url);
     booksObj.getLoginButton().click();
     loginObj.getUserNameField().type(testdata.username);
     loginObj.getPasswordField().type(testdata.password);
+    loginObj.getLoginButton().click();
+    booksObj.getLogoutButton().click();
   });
 });

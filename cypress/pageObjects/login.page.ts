@@ -5,15 +5,15 @@ export default class LoginPage {
   private loginButton = "#login";
   // private newUserButton = "#newUser";
 
-  getUserNameField() {
+  getUserNameField(): Cypress.Chainable<JQuery<HTMLElement>> {
     return cy.get(this.userNameField).should("be.visible");
   }
 
-  getPasswordField() {
+  getPasswordField(): Cypress.Chainable<JQuery<HTMLElement>> {
     return cy.get(this.passwordField).should("be.visible");
   }
 
-  getLoginButton() {
+  getLoginButton(): Cypress.Chainable<JQuery<HTMLElement>> {
     return cy.get(this.loginButton).should("be.visible");
   }
 }
