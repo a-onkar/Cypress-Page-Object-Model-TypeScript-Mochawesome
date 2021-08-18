@@ -1,8 +1,6 @@
 {
   "$schema": "https://on.cypress.io/cypress.schema.json",
-  "defaultCommandTimeout": 30000,
-  "responseTimeout": 30000,
-  "pageLoadTimeout": 60000,
+  "baseUrl": "https://demoqa.com/",
   "video": false,
   "screenshotOnRunFailure": true,
   "screenshotsFolder": "cypress/reports/mochareports/assets",
